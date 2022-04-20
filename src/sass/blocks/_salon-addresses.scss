@@ -1,0 +1,159 @@
+.salon__cantainer{
+    display: flex;
+    margin-bottom: 160px;
+}
+.map{
+    width: 100%;
+    height: 450px;
+    position: sticky !important;
+    top: 50px;
+}
+.gm-ui-hover-effect{
+    display: none !important;
+}
+.map-wrapper{
+    width: 50%;
+    margin-right: 34px;
+}
+.salon-block{
+    width: 50%;
+}
+.salon-addresses__btn{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #242424;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.salon-addresses__btn.active{
+    color: #970E0B;
+    transition: 0.3s;
+}
+.salon-addresses__btn.active svg path{
+    fill: #970E0B;
+    transition: 0.3s;
+}
+.salon-addresses__btn.active svg{
+    transform: rotate(180deg);
+}
+.salon-addresses__btn svg{
+    margin-right: 20px;
+}
+.salon-addresses__contacts-title{
+    display: block;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #242424;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.salon-addresses__contacts-row{
+    display: flex;
+    margin-top: 30px;
+}
+.salon-addresses__contacts-name{
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+    width: 147px;
+    min-width: 147px;
+    margin-right: 145px;
+}
+.salon-addresses__contacts-text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+    text-decoration: none;
+}
+a.salon-addresses__contacts-text:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+.salon-addresses__contacts{
+    padding-left: 50px;
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.3s;
+}
+.salon-addresses__contacts.active{
+    margin-bottom: 64px;
+}
+.salon-addresses__contacts-text.width{
+    width: 223px;
+}
+.requisites__title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #970E0B;
+    margin-bottom: 30px;
+}
+.requisites__name{
+    display: block;
+    width: 255px;
+    min-width: 255px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+    margin-right: 30px;
+}
+.requisites__row{
+    display: flex;
+    margin-bottom: 40px;
+}
+.requisites__text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+    text-decoration: none;
+}
+.requisites__text:link{
+    color: #242424;
+}
+a.requisites__text:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+.requisites__download{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(36, 36, 36, 0.7);
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+.requisites__download:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+.requisites__download:link{
+    color: rgba(36, 36, 36, 0.7);
+}
+.requisites{
+    margin-top: 120px;
+}
+.form-btn__inner{
+    display: flex;
+    min-width: 616px;
+}
+.form-btn__inner .chek__label{
+    min-width: 290px;
+    margin-left: 34px;
+}
+.gm-style-iw.gm-style-iw-c .gm-style-iw-d{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #242424;
+}

@@ -1,0 +1,12 @@
+.action__conatiner{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 180px;
+}
+.action__conatiner .action-card{
+    width: calc(100% / 2 - 17px);
+    margin-bottom: 34px;
+}
+.action__conatiner .action-card:nth-child(2n){
+    margin-right: 0;
+}

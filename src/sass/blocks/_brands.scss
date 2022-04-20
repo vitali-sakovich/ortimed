@@ -1,0 +1,107 @@
+.brands__conatiner{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 160px;
+}
+.brands__conatiner .brands__card{
+    width: calc(100% / 4 - 26px);
+    margin-bottom: 20px;
+}
+.brands__conatiner .brands__card:nth-child(4n){
+    margin-right: 0;
+}
+.detail__container{
+    display: flex;
+    margin-bottom: 160px;
+}
+.detail__img-wrapper{
+    width: 50%;
+    margin-right: 34px;
+}
+.detail__img{
+    position: sticky;
+    top: 50px;
+    width: 100%;
+}
+.content_detail-brands .detail__img{
+    padding: 40px;
+}
+.content_detail-brands .detail__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.detail__block{
+    width: 50%;
+}
+.detail__box-text .text{
+    margin-bottom: 30px;
+}
+.detail__box-text .text:last-child{
+    margin-bottom: 0;
+}
+.detail__block .title-xl{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.documents__item{
+    margin-right: 34px;
+}
+.documents__item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.documents-track{
+    margin-top: 40px;
+    margin-right: -34px;
+}
+.documents-slider{
+    margin-bottom: 160px;
+}
+.documents-slider .slider-header{
+    padding-left: 0;
+}
+.product-barnd__container{
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 36px;
+}
+.product-barnd__card{
+    padding: 24px;
+    text-decoration: none;
+    width: calc(100% / 4 - 26px);
+    margin-right: 34px;
+    margin-bottom: 24px;
+    border-radius: 24px;
+    background: #fff;
+    transition: 0.3s;
+}
+.product-barnd__card:hover{
+    box-shadow: 0px 18px 87px rgba(36, 36, 36, 0.06), 0px 3.86958px 44.4771px rgba(36, 36, 36, 0.0357664), 0px 1.26514px 30.52px rgba(36, 36, 36, 0.0242336);
+    transition: 0.3s;
+}
+.product-barnd__card:nth-child(4n){
+    margin-right: 0;
+}
+.product-barnd__card-img{
+    height: 253px;
+    background: #DDEEEE;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.product-barnd__card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.product-barnd__card-name{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #242424;
+}
+.product-barnd{
+    margin-bottom: 160px;
+}

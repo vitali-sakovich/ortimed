@@ -1,0 +1,73 @@
+@import 'fonts';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+  html {
+    height: 100%; }
+  
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100%; 
+    padding-left: 122px;
+}
+body.hidden{
+  overflow: hidden;
+}
+  header {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto; 
+    z-index: 1;
+  }
+  
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto; }
+  
+  footer {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto; }
+    
+
+    @import 'blocks/header';
+    @import 'blocks/footer';
+    @import 'blocks/index';     
+    @import 'blocks/modals'; 
+    @import 'blocks/catalog-detail'; 
+    @import 'blocks/checkout-thank'; 
+    @import 'blocks/search'; 
+    @import 'blocks/text-content'; 
+    @import 'blocks/catalog'; 
+    @import 'blocks/account'; 
+    @import 'blocks/news'; 
+    @import 'blocks/articles'; 
+    @import 'blocks/brands'; 
+    @import 'blocks/action'; 
+    @import 'blocks/specialists'; 
+    @import 'blocks/about'; 
+    @import 'blocks/services'; 
+    @import 'blocks/salon-addresses'; 
+    @import 'media';   

@@ -1,0 +1,32 @@
+.checkout__number{
+    display: flex;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #242424;
+    margin-bottom: 40px;
+}
+.checkout__number span{
+    display: flex;
+    color: #970E0B;
+    margin-left: 10px;
+}
+.checkout-text{
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+    margin-bottom: 20px;
+}
+.checkout-thank__cotainer .btn-link_color{
+    display: inline-block;
+    color: #3B66B8;
+    margin-left: 10px;
+}
+.checkout-thank__cotainer .btn-border{
+    width: 244px;
+    margin-top: 40px;
+}
+.checkout-thank__cotainer{
+    padding-bottom: 160px;
+}

@@ -1,0 +1,130 @@
+.specialists__conatiner{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 126px;
+}
+.specialist__card{
+    width: calc(100% / 4 - 27px);
+    padding: 24px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-bottom: 34px;
+    margin-right: 34px;
+}
+.specialist__card:nth-child(4n){
+    margin-right: 0;
+}
+.specialist__card:hover{
+    transition: 0.3s;
+    box-shadow: 0px 18px 87px rgba(36, 36, 36, 0.06), 0px 3.86958px 44.4771px rgba(36, 36, 36, 0.0357664), 0px 1.26514px 30.52px rgba(36, 36, 36, 0.0242336);
+}
+.specialist__card-img{
+    width: 100%;
+    height: 294px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    background: url('../img/mask.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.specialist__card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.specialist__card-name{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #242424;
+    margin-bottom: 10px;
+}
+.specialist__card-specialty{
+    color: #970E0B;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.specialist__card-experience{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242424;
+}
+.specialist__row{
+    display: flex;
+    margin-bottom: 30px;
+}
+.specialist__row:last-child{
+    margin-bottom: 0;
+}
+.specialist__name{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+    width: 125px;
+    min-width: 125px;
+    margin-right: 40px;
+}
+.specialist__text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+}
+.content_detail-specialists .specialist__box{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.content_detail-specialists .detail__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.forms-title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #242424;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #970E0B;
+    margin-bottom: 20px;
+}
+.forms-block{
+    margin-top: 160px;
+}
+.forms-text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #242424;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+.forms-block .btn-border{
+    margin-top: 10px;
+    background: none;
+}
+textarea.input{
+    min-height: 31px;
+    resize: vertical;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+textarea.input::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+textarea.input.is-active ~ .placeholder-input{
+    top: -20px;
+}
+textarea.input.is-active ~ .clear-input{
+    top: 13px;
+}

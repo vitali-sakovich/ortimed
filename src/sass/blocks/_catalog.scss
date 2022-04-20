@@ -1,0 +1,107 @@
+.catalog-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 160px;
+}
+.catalog-container{
+    display: flex;
+}
+.filter{
+    width: 342px;
+    min-width: 342px;
+}
+.catalog-block{
+    width: 100%;
+    margin-left: 34px;
+}
+.sort-wrapper{
+    display: flex;
+    margin-left: 376px;
+    margin-bottom: 40px;
+}
+.sort-layout{
+    display: flex;
+}
+.sort-layout__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(36, 36, 36, 0.5);
+    width: 64px;
+    height: 50px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sort-layout__btn.active{
+    background: rgba(36, 36, 36, 0.5);
+    transition: 0.3s;
+    border: none;
+}
+.sort-layout__btn.active svg rect{
+    fill: #fff;
+    fill-opacity: 1;
+    transition: 0.3s;
+}
+.sort-layout__btn_col{
+    margin-right: 20px;
+}
+.catalog-block_col{
+    display: flex;
+    flex-flow: row wrap;
+}
+.catalog-block_col .product-card{
+    width: calc(100% / 3 - 23px);
+    margin-bottom: 34px;
+}
+.catalog-block_col .product-card:nth-child(3n){
+    margin-right: 0;
+}
+.sort:nth-child(2) .select-sort{
+    min-width: 368px;
+}
+.catalog-block_row .product-card{
+    width: 100%;
+    margin-bottom: 24px;
+}
+.catalog-block_row .product-card{
+    display: flex;
+}
+.catalog-block_row .product-card-img{
+    display: flex;
+    width: 151px;
+    min-width: 151px;
+    height: 110px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.catalog-block_row .product-card__content{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.catalog-block_row .product-card__labels{
+    margin-bottom: 24px;
+}
+.catalog-block_row .product-card__name{
+    margin-bottom: 24px;
+    max-width: 302px;
+}
+.catalog-block_row .btn-border.add-basket{
+    width: 302px;
+}
+.catalog-block_row .btn__add-favorites{
+    justify-content: flex-start;
+    margin-top: 24px;
+}
+.catalog-block_row .product-card__price{
+    margin-bottom: 24px;
+}
+.catalog-block .pagination{
+    margin-top: 40px;
+}
